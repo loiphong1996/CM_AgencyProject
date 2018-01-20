@@ -16,8 +16,7 @@ namespace Service
                 return new User
                 {
                     Username = username,
-                    Password = password,
-                    Role = "user"
+                    Password = password
                 };
             }
 
@@ -26,8 +25,7 @@ namespace Service
                 return new User
                 {
                     Username = username,
-                    Password = password,
-                    Role = "admin"
+                    Password = password
                 };
             }
 

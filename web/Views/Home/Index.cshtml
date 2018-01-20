@@ -1,7 +1,16 @@
-﻿@section SPAViews {
-    @Html.Partial("_Home")
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@section Scripts{
-    @Scripts.Render("~/bundles/knockout")
-    @Scripts.Render("~/bundles/app")
+
+<app-root>Loading...</app-root>
+
+@section scripts
+{
+    
+    <script type="text/javascript" src="~/Angular/dist/inline.bundle.js"></script>
+    <script type="text/javascript" src="~/Angular/dist/polyfills.bundle.js"></script>
+    <script type="text/javascript" src="~/Angular/dist/styles.bundle.js"></script>
+    <script type="text/javascript" src="~/Angular/dist/vendor.bundle.js"></script>
+    <script type="text/javascript" src="~/Angular/dist/main.bundle.js"></script>
+
 }
