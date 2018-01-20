@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{6CA4B9C4-1A36-4BF9-9020-F5AF5E37FC3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "Angular\Angular.csproj", "{F5967E2B-557C-4C2F-914C-74CBEED65941}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6CA4B9C4-1A36-4BF9-9020-F5AF5E37FC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA4B9C4-1A36-4BF9-9020-F5AF5E37FC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA4B9C4-1A36-4BF9-9020-F5AF5E37FC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5967E2B-557C-4C2F-914C-74CBEED65941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5967E2B-557C-4C2F-914C-74CBEED65941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5967E2B-557C-4C2F-914C-74CBEED65941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5967E2B-557C-4C2F-914C-74CBEED65941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
